@@ -1,0 +1,19 @@
+{
+  "name": "sandcastle-codespace",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-deps": "rollup -c rollup.config.js; cp -dpR node_modules/cesium/Build/Cesium/Assets node_modules/cesium/Build/Cesium/Widgets node_modules/cesium/Build/Cesium/Workers docs",
+    "serve": "http-serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "cesium": "^1.117.0",
+    "http-serve": "^1.0.1",
+    "rollup": "^4.17.2"
+  }
+}
