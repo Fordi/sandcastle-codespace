@@ -5,11 +5,7 @@ import {
   Cesium3DTileColorBlendMode,
   Cartesian3,
 } from "cesium";
-const container = Object.assign(document.createElement("div"), {
-  className: "fullSize",
-});
-document.body.appendChild(container);
-const viewer = new Viewer(container);
+const viewer = new Viewer("cesiumContainer");
 const b3dmTileset = await Cesium3DTileset.fromUrl(
   "./tilesets/dtm/b3dmTileset.json"
 );
