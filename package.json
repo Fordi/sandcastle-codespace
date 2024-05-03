@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "postinstall": "rollup -c rollup.config.js; cp -dpR node_modules/cesium/Build/Cesium/Assets node_modules/cesium/Build/Cesium/Widgets node_modules/cesium/Build/Cesium/Workers docs",
+    "postinstall": "rollup -c rollup.config.js; cp -dpR node_modules/cesium/Build/Cesium/Assets node_modules/cesium/Build/Cesium/Widgets node_modules/cesium/Build/Cesium/Workers docs; npm start",
     "start": "http-serve docs"
   },
   "keywords": [],
