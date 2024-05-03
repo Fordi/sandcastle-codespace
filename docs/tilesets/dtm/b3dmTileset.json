@@ -1,0 +1,66 @@
+{
+  "asset": {
+    "extras": {
+      "cesium": {
+        "csv": "NEZ_RGB_PERIOD_DECIMAL_POINT.csv",
+        "heightmapUri": "heightmap.tiff",
+        "landXMLUris": [
+          "landxml_0.5_METERS.xml",
+          "landxml_1.0_METERS.xml",
+          "landxml_2.0_METERS.xml"
+        ],
+        "las": "NEZ_RGB.las",
+        "objUris": [
+          "landxml_0.5_METERS.obj"
+        ]
+      },
+      "ion": {
+        "georeferenced": true,
+        "movable": true
+      }
+    },
+    "version": "1.0"
+  },
+  "geometricError": 274.3008154174016,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        -0.0032797674196558546,
+        -0.00892980583012104,
+        3.8204641831107438,
+        92.92500881749973,
+        0.0,
+        0.0,
+        0.0,
+        100.80001585364178,
+        0.0,
+        0.0,
+        0.0,
+        3.8128400617279112
+      ]
+    },
+    "content": {
+      "uri": "0/0.b3dm"
+    },
+    "geometricError": 0.0,
+    "refine": "REPLACE",
+    "transform": [
+      -0.6416537447896989,
+      -0.7669944405257157,
+      0.0,
+      0.0,
+      0.44651830003718535,
+      -0.373549173498063,
+      0.8130697526724359,
+      0.0,
+      -0.6236199800593771,
+      0.5217092515775029,
+      0.5821662797596439,
+      0.0,
+      -3982074.8638798115,
+      3331332.162838205,
+      3692490.0937780007,
+      1.0
+    ]
+  }
+}

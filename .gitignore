@@ -3,4 +3,4 @@ docs/Assets
 docs/Widgets
 docs/Workers
 docs/cesium.js
-docs/tilesets/**/*
+package-lock.json
